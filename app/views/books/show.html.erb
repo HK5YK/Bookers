@@ -1,0 +1,14 @@
+<div class="show">
+  
+<div class="show-item">
+  <h4>Title:　<%= @book.title %></h4>
+</div>
+<div class="show-item">
+  <h4>Body:　<%= @book.body %></h4>
+ </div>
+
+<div class="show-part">
+　<%= link_to "Edit", edit_book_path(@book.id) %>　<%= link_to "Back", books_path %>
+</div>
+    
+</div>
